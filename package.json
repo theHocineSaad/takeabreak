@@ -1,0 +1,68 @@
+{
+  "name": "takeabreak",
+  "displayName": "Take a Break",
+  "description": "Protect your vision with 20-minute breaks.",
+  "version": "0.0.1",
+  "publisher": "Hocine Saad",
+  "author": {
+    "name": "Hocine Saad"
+  },
+  "keywords": [
+    "eye",
+    "protection",
+    "20 20 20",
+    "vision",
+    "break"
+  ],
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#082151",
+    "theme": "light"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "takeabreak.Take a break: Start",
+      "title": "Take a break: Start"
+    },
+    {
+      "command": "takeabreak.Take a break: Stop",
+      "title": "Take a break: Stop"
+    }
+  ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.78.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "eslint": "^8.39.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.4",
+    "@vscode/test-electron": "^2.3.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/theHocineSaad/takeabreak/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theHocineSaad/takeabreak.git"
+  },
+  "homepage": "https://github.com/theHocineSaad/takeabreak/blob/main/README.md"
+}
