@@ -31,7 +31,7 @@ function activate(context) {
 		}
 
 		// Start the reminder by setting an interval to show the reminder message every 20 seconds.
-		interval = setInterval(showReminder, 5000);
+		interval = setInterval(showReminder, 20 * 60 * 1000);
 
 		// Show a notification or not, depends on "showNotification" parameter.
 		showNotification ?? vscode.window.showInformationMessage("Take a break successfully started! We will notify you every 20 minutes to take a break.");
