@@ -11,10 +11,11 @@ The 20-20-20 rule advises taking a 20-second break every 20 minutes and looking 
 
 ## Commands
 
-**Take a break: Stop**: Stops showing the reminders.
+**Take a break: Stop**: Stops showing the reminders.  
+
 **Take a break: Start**: Restarts showing the reminders.
 
-**Note: **After installing the extension, reminders will be started automatically and then you can stop and start them using the previous commands.
+**Note:** After installing the extension, reminders will be started automatically and then you can stop and start them using the previous commands.
 
 ## Release Notes
 
